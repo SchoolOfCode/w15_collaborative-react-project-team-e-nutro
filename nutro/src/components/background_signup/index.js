@@ -1,18 +1,12 @@
-// import React from "react";
-// import {Link } from "react-router-dom";
+import React from "react";
+import { Link } from "react-router-dom";
 
-//  function signUp() {
-
-//      return (
-//        <div>
-        
-//          <Link to="/"><button>
-//            Go to Page 2 
-//          </button>
-//          </Link>
-//        </div>
-//      );
-
-//  }
-
-//  export default Page1;
+function Signup() {
+  return (
+    <div>
+      <h3>Signup</h3>
+      <Link to="/completed">Submit preferences</Link>
+    </div>
+  );
+}
+export default Signup;
