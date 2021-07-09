@@ -2,48 +2,52 @@ import React from "react";
 import "./App.css";
 import { useState } from "react";
 
-// import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { useEffect } from "react";
-
+import { Link } from "react-router-dom";
 import Signup from "../background_signup";
 import Completed from "../background_completed_signup";
 import Home from "../home";
-import { render } from "react-dom";
 
 // plan for button on landoing page
 // step one button save and take you to the next page
-
 function App() {
-  const [buttonData, setButtonData] = useState("");
-  useEffect(() => {
-    switch (buttonData) {
-      case "signup":
-        Signup;
-        break;
-      case "Completed":
-        Completed;
-        break;
-      case "Home":
-        Home;
-        break;
-    }
-    // what if we use turnary instead switchCase
-  }, [buttonData]);
+  // const [buttonData, setButtonData] = useState("");
 
-  function handleClick(props) {
-    setButtonData(props);
-  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Nutro</h1>
-        <button onClick={handleClick}>Continue</button>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        <Switch>
+          <Route path="/background_completed_signup" component={Completed} />
+          <Route path="/background_signup" exact component={Signup} />
+          <header className="App-header">
+            <h1>Nutro</h1>
+            <Route path="/" exact />
+            <Link to="/background_signup">
+              <button>Continue</button>
+            </Link>
+          </header>
+        </Switch>
+      </div>
+    </Router>
   );
 }
 
 export default App;
+// useEffect(() => {
+//   switch (buttonData) {
+//     case "signup":
+//       Signup;
+//       break;
+//     case "Completed":
+//       Completed;
+//       break;
+//     case "Home":
+//       Home;
+//       break;
+//   }
+//   // what if we use turnary instead switchCase
+// } [buttonData]);
 
 //   return (
 //     <div>

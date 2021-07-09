@@ -1,11 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
-function Signup(props) {
+function Signup() {
   return (
     <div>
-      <h3>{props.Signup}</h3>
-      <Link to="/completed">Submit preferences</Link>
+      <h1> welcome to sign up</h1>
+      <Link to="/background_completed_signup">Submit preferences</Link>
     </div>
   );
 }
