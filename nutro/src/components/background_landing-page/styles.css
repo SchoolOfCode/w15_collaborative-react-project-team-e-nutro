@@ -41,15 +41,34 @@ body {
 
 .green-ellipse {
   background-image: url("./green-ellipse.png");
-  height: 100px;
+  position: absolute;
+  left: 1%;
+  right: 90%;
+  top: 10.04%;
+  bottom: -3.87%;
+  border-radius: 50%;
+  background-repeat: no-repeat;
 }
 
 .yellow-ellipse {
-  background-image: url("./red-ellipse.png");
+  background-image: url("./yellow-ellipse.png");
+  position: absolute;
+  width: 581px;
+  height: 713.3px;
+  left: -106px;
+  top: 323px;
+  border-radius: 50%;
+  background-repeat: no-repeat;
 }
 
 .red-ellipse {
-  background-image: url("./yellow-ellipse.png");
+  background-image: url("./red-ellipse.png");
+  position: absolute;
+  width: 325px;
+  height: 315px;
+  left: 184px;
+  top: 2px;
+  background-repeat: no-repeat;
 }
 
 .title {
