@@ -13,7 +13,7 @@ function BackgroundLandingPage() {
       <h3 className="sub-text">
         Help the world we live in by helping yourself first.
       </h3>
-      <div className="green-ellipse"></div>
+      <div className="green-ellipse">Test</div>
       <div className="yellow-ellipse"></div>
       <div className="red-ellipse"></div>
     </div>

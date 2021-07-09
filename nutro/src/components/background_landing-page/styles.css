@@ -40,15 +40,16 @@ body {
 }
 
 .green-ellipse {
-  background-image: url(./green-ellipse.png);
+  background-image: url("./green-ellipse.png");
+  height: 100px;
 }
 
 .yellow-ellipse {
-  background-image: url(./red-ellipse.png);
+  background-image: url("./red-ellipse.png");
 }
 
 .red-ellipse {
-  background-image: url(./yellow-ellipse.png);
+  background-image: url("./yellow-ellipse.png");
 }
 
 .title {
