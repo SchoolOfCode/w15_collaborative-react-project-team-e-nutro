@@ -1,10 +1,9 @@
 import logo from "./logo.svg";
 import "./App.css";
 
-import BackgroundLandingPage from "./components/background_landing-page"
+import BackgroundLandingPage from "./components/background_landing-page";
 
 function App() {
-  
   return (
     <div className="App">
       <header className="App-header">
@@ -12,6 +11,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
+        <BackgroundLandingPage />
         <a
           className="App-link"
           href="https://reactjs.org"
