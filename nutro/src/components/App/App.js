@@ -1,38 +1,42 @@
+import React from "react";
 import "./App.css";
 import { useState } from "react";
-// import React from "react";
-// import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-// import Signup from "../background_signup";
-// import Completed from "../background_completed_signup";
-// import Home from "../home";
+// import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { useEffect } from "react";
+
+import Signup from "../background_signup";
+import Completed from "../background_completed_signup";
+import Home from "../home";
+import { render } from "react-dom";
 
 // plan for button on landoing page
 // step one button save and take you to the next page
 
 function App() {
-  const [, setButtonData] = useState("");
-  function handleClick(text) {
-    // <Router>
-    //   <Switch>
-    //     <Route exact path="/signup">
-    //       <Signup />
-    //     </Route>
-    //     <Route path="/completed">
-    //       <Completed />
-    //     </Route>
-    //     <Route path="/home">
-    //       <Home />
-    //     </Route>
-    //   </Switch>
-    // </Router>;
+  const [buttonData, setButtonData] = useState("");
+  useEffect(() => {
+    switch (buttonData) {
+      case "signup":
+        Signup;
+        break;
+      case "Completed":
+        Completed;
+        break;
+      case "Home":
+        Home;
+        break;
+    }
+    // what if we use turnary instead switchCase
+  }, [buttonData]);
 
-    setButtonData(text);
+  function handleClick(props) {
+    setButtonData(props);
   }
   return (
     <div className="App">
       <header className="App-header">
-        <h1>hello world</h1>
+        <h1>Nutro</h1>
         <button onClick={handleClick}>Continue</button>
       </header>
     </div>
@@ -40,3 +44,14 @@ function App() {
 }
 
 export default App;
+
+//   return (
+//     <div>
+//       <BrowserRouter>
+//         <Switch>
+//           <Signup />
+//           <Route path="/background_signup"></Route>
+//         </Switch>
+//       </BrowserRouter>
+//     </div>
+// );
