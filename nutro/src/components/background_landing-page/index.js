@@ -8,7 +8,7 @@ import "./yellow-ellipse.png";
 
 function BackgroundLandingPage() {
   return (
-    <div className="Background-landing-page">
+    <div className="body">
       <div className="green-ellipse"></div>
       <div className="yellow-ellipse"></div>
       <div className="red-ellipse"></div>

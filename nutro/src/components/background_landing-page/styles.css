@@ -35,7 +35,7 @@ Red Circle
   background: #fe554a;
 } */
 
-.Background-landing-page {
+.body {
   background-color: #ffffff;
 }
 
@@ -79,7 +79,7 @@ Red Circle
   position: absolute;
   width: 209px;
   height: 42px;
-  left: 92px;
+  left: 68px;
   top: 96px;
 
   font-family: Nunito Sans;
@@ -100,10 +100,10 @@ Red Circle
 .sub-text {
   /* Text */
   position: absolute;
-  left: 2.12%;
+  left: 7.12%;
   right: 12.75%;
   top: -7.33%;
-  bottom: 62.36%;
+  bottom: 60.36%;
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: 200;
