@@ -35,19 +35,21 @@ Red Circle
   background: #fe554a;
 } */
 
-body {
+.Background-landing-page {
   background-color: #ffffff;
 }
 
 .green-ellipse {
   background-image: url("./green-ellipse.png");
   position: absolute;
-  left: 1%;
-  right: 90%;
-  top: 10.04%;
+  right: -13.12%;
+  top: 5.04%;
   bottom: -3.87%;
   border-radius: 50%;
   background-repeat: no-repeat;
+  left: -28.5%;
+  background: #0f7561;
+  opacity: 0.9;
 }
 
 .yellow-ellipse {
@@ -55,9 +57,9 @@ body {
   position: absolute;
   width: 581px;
   height: 713.3px;
-  left: -106px;
-  top: 323px;
-  border-radius: 50%;
+  left: -85px;
+  top: 254px;
+  border-radius: 1%;
   background-repeat: no-repeat;
 }
 
@@ -66,7 +68,7 @@ body {
   position: absolute;
   width: 325px;
   height: 315px;
-  left: 184px;
+  left: 122px;
   top: 2px;
   background-repeat: no-repeat;
 }
