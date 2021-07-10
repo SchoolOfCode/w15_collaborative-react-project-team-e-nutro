@@ -8,5 +8,5 @@ function Completed() {
       <Link to="/home">Go to the Home page</Link>
     </div>
   );
-};
+}
 export default Completed;
