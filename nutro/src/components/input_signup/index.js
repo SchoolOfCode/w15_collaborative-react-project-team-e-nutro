@@ -23,7 +23,7 @@ function Input() {
   }
 
   //     useEffect(() => {
-
+  // app rerender everytime an input is filed to display what has been inputed/chosen
   //   });
 
   return (
