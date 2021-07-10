@@ -22,6 +22,10 @@ function Input() {
     setAllergies(e.target.value);
   }
 
+  //     useEffect(() => {
+
+  //   });
+
   return (
     (
       <input
