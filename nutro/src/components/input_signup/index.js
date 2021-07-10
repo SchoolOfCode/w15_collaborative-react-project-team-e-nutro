@@ -7,8 +7,8 @@ function Input() {
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
   const [diet, setDiet] = useState("Vegetarian");
-  const [goals, setGoals] = useState("");
-  const [allergies, setAllergies] = useState("");
+  const [goals, setGoals] = useState("Become healthier and feel better");
+  const [allergies, setAllergies] = useState("None");
 
   function handleDietChange(e) {
     setDiet(e.target.value);
@@ -16,6 +16,10 @@ function Input() {
 
   function handleGoalsChange(e) {
     setGoals(e.target.value);
+  }
+
+  function handleAllergiesChange(e) {
+    setAllergies(e.target.value);
   }
 
   return (
@@ -90,6 +94,21 @@ function Input() {
         <option value="Shop ethically/sustainably">
           Shop ethically/sustainably
         </option>
+      </select>
+    )),
+    ((<label for="allergies">Do you have any allergies?</label>),
+    (
+      <select
+        name="allergies"
+        id="allergies"
+        defaultValue={allergies}
+        onChange={handleAllergiesChange}
+      >
+        <option value="Nuts and seeds">Nuts and seeds</option>
+        <option value="Seafood and shellfish">Seafood and shellfish</option>
+        <option value="Dairy">Dairy</option>
+        <option value="Soy">Soy</option>
+        <option value="None">None</option>
       </select>
     ))
   );
