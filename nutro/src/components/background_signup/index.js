@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import "./style.css";
+
 function Signup() {
   return (
     <div>
@@ -8,4 +10,5 @@ function Signup() {
     </div>
   );
 }
+
 export default Signup;
