@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import { useState } from "react";
 
+import Button from "../button";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
@@ -24,7 +25,7 @@ function App() {
             <h1>Nutro</h1>
             <Route path="/" exact />
             <Link to="/background_signup">
-              <button>Continue</button>
+              <Button label="Continue" />
             </Link>
           </header>
         </Switch>
