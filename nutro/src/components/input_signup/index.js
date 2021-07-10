@@ -6,9 +6,13 @@ function Input() {
   const [firstName, setFirstName] = useState("");
   const [lastName, setLastName] = useState("");
   const [email, setEmail] = useState("");
-  const [diet, setDiet] = useState("");
+  const [diet, setDiet] = useState("Vegetarian");
   const [goals, setGoals] = useState("");
   const [allergies, setAllergies] = useState("");
+
+  function handleDietChange(e) {
+    setDiet(e.target.value);
+  }
 
   return (
     (
@@ -50,7 +54,21 @@ function Input() {
         value={firstName}
         onChange={(e) => setFirstName(e.target.value)}
       ></input>
-    )
+    ),
+    ((<label for="diet">Select dietary requirements:</label>),
+    (
+      <select
+        name="diet"
+        id="diet"
+        defaultValue={diet}
+        onChange={handleDietChange}
+      >
+        <option value="Vegan">Vegan</option>
+        <option value="Vegetarian">Vegetarian</option>
+        <option value="Pescetarian">Pescetarian</option>
+        <option value="Gluten Free">Gluten Free</option>
+      </select>
+    ))
   );
 }
 
