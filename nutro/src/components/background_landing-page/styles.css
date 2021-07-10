@@ -1,0 +1,135 @@
+<<<<<<< HEAD
+/* Green Ellipse
+.green-ellipse {
+  position: absolute;
+  left: -26.56%;
+  right: -29.06%;
+  top: 10.04%;
+  bottom: -3.87%;
+  border-radius: 50%;
+
+  background: #0f7561;
+  opacity: 0.9;
+}
+
+Yellow Ellipse
+
+.yellow-ellipse {
+  position: absolute;
+  width: 581px;
+  height: 713.3px;
+  left: -106px;
+  top: 323px;
+  border-radius: 50%;
+
+  background: #fcc832;
+}
+
+Red Circle
+.red-ellipse {
+  position: absolute;
+  width: 325px;
+  height: 315px;
+  left: 184px;
+  top: -157px;
+
+  background: #fe554a;
+} */
+
+.body {
+=======
+.container {
+>>>>>>> d04848edd4db952d4af46a8f5e949a502d6ca31f
+  background-color: #ffffff;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.green-ellipse {
+  background-image: url("./green-ellipse.png");
+  position: absolute;
+  right: -13.12%;
+  top: 5.04%;
+  bottom: -3.87%;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  left: -28.5%;
+  background: #0f7561;
+  opacity: 0.9;
+}
+
+.yellow-ellipse {
+  background-image: url("./yellow-ellipse.png");
+  position: absolute;
+  width: 581px;
+  height: 713.3px;
+  left: -58px;
+  top: 218px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  border-radius: 1%;
+  background-repeat: no-repeat;
+}
+
+.red-ellipse {
+  background-image: url("./red-ellipse.png");
+  position: absolute;
+  width: 325px;
+  height: 315px;
+  left: 122px;
+  top: -40px;
+  background-repeat: no-repeat;
+}
+
+.title {
+  /* N u t r o */
+
+  position: absolute;
+  width: 209px;
+  height: 42px;
+  left: 68px;
+  top: 96px;
+
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 55px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: #ffffff;
+
+  transform: rotate(0.17deg);
+}
+
+.sub-text {
+  /* Text */
+  position: absolute;
+  left: 7.12%;
+  right: 12.75%;
+  top: -7.33%;
+  bottom: 60.36%;
+  font-family: Nunito Sans;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 10.617px;
+  line-height: 112%;
+  display: flex;
+  align-items: flex-end;
+  text-align: center;
+  letter-spacing: -0.787234px;
+  color: #ffffff;
+}
+
+.btn {
+  position: absolute;
+  width: 116px;
+  height: 33px;
+  left: 102px;
+  top: 482px;
+}
