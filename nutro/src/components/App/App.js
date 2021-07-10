@@ -35,28 +35,3 @@ function App() {
 }
 
 export default App;
-// useEffect(() => {
-//   switch (buttonData) {
-//     case "signup":
-//       Signup;
-//       break;
-//     case "Completed":
-//       Completed;
-//       break;
-//     case "Home":
-//       Home;
-//       break;
-//   }
-//   // what if we use turnary instead switchCase
-// } [buttonData]);
-
-//   return (
-//     <div>
-//       <BrowserRouter>
-//         <Switch>
-//           <Signup />
-//           <Route path="/background_signup"></Route>
-//         </Switch>
-//       </BrowserRouter>
-//     </div>
-// );
