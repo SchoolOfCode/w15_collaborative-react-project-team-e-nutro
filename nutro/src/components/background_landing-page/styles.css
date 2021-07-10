@@ -1,42 +1,8 @@
-/* Green Ellipse
-.green-ellipse {
-  position: absolute;
-  left: -26.56%;
-  right: -29.06%;
-  top: 10.04%;
-  bottom: -3.87%;
-  border-radius: 50%;
-
-  background: #0f7561;
-  opacity: 0.9;
-}
-
-Yellow Ellipse
-
-.yellow-ellipse {
-  position: absolute;
-  width: 581px;
-  height: 713.3px;
-  left: -106px;
-  top: 323px;
-  border-radius: 50%;
-
-  background: #fcc832;
-}
-
-Red Circle
-.red-ellipse {
-  position: absolute;
-  width: 325px;
-  height: 315px;
-  left: 184px;
-  top: -157px;
-
-  background: #fe554a;
-} */
-
-.Background-landing-page {
+.container {
   background-color: #ffffff;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .green-ellipse {
@@ -59,6 +25,9 @@ Red Circle
   height: 713.3px;
   left: -58px;
   top: 218px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
   border-radius: 1%;
   background-repeat: no-repeat;
 }
@@ -103,7 +72,7 @@ Red Circle
   left: 2.12%;
   right: 12.75%;
   top: -7.33%;
-  bottom: 62.36%;
+  bottom: 42.36%;
   font-family: Nunito Sans;
   font-style: normal;
   font-weight: 200;
