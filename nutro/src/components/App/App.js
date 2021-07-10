@@ -21,6 +21,7 @@ function App() {
           <Route path="/background_signup" exact component={Signup} />
           <header className="App-header">
             <h1>Nutro</h1>
+            <BackgroundLandingPage />
             <Route path="/" exact />
             <Link to="/background_signup">
               <Button label="Continue" />
