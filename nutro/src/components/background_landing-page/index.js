@@ -6,6 +6,8 @@ import "./green-ellipse.png";
 import "./red-ellipse.png";
 import "./yellow-ellipse.png";
 
+import Button from "../button";
+
 function BackgroundLandingPage() {
   return (
     <div className="body">

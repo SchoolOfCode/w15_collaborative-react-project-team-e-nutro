@@ -1,20 +1,18 @@
 import React from "react";
 import "./App.css";
-import { useState } from "react";
+import { useState, useEffect } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import Button from "../button";
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { useEffect } from "react";
-import { Link } from "react-router-dom";
 import Signup from "../background_signup";
 import Completed from "../background_completed_signup";
 import Home from "../home";
+import BackgroundLandingPage from "../background_landing-page";
 
-// plan for button on landoing page
+// plan for button on landing page
 // step one button save and take you to the next page
 function App() {
-  // const [buttonData, setButtonData] = useState("");
-
   return (
     <Router>
       <div className="App">
