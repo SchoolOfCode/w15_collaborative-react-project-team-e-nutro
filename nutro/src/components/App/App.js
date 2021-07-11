@@ -19,9 +19,10 @@ function App() {
         <Switch>
           <Route path="/background_completed_signup" component={Completed} />
           <Route path="/background_signup" exact component={Signup} />
+          <BackgroundLandingPage />
           <header className="App-header">
-            <h1>Nutro</h1>
-            <BackgroundLandingPage />
+            {/* <h1>Nutro</h1> */}
+
             <Route path="/" exact />
             <Link to="/background_signup">
               <Button label="Continue" />

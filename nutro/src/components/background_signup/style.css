@@ -1,6 +1,4 @@
 .title {
-  /* N u t r o */
-
   position: absolute;
   width: 209px;
   height: 42px;
@@ -23,7 +21,6 @@
 }
 
 .sub-text {
-  /* Text */
   position: absolute;
   left: 7.12%;
   right: 12.75%;
@@ -38,6 +35,9 @@
   align-items: flex-end;
   text-align: center;
   letter-spacing: -0.787234px;
+  color: #000000;
+}
+h3 {
   color: #000000;
 }
 

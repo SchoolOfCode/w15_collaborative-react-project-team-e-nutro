@@ -1,5 +1,6 @@
 import React from "react";
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 import "./styles.css";
 import "./green-ellipse.png";
@@ -17,6 +18,9 @@ function BackgroundLandingPage() {
       <h1 className="title">Nutro</h1>
       <h3 className="sub-text">
         Help the world we live in by helping yourself first.
+        <Link to="/background_signup">
+          <Button label="Continue" />
+        </Link>
       </h3>
     </div>
   );
