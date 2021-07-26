@@ -1,3 +1,18 @@
+# Nutro
+
+Nutro is a life style web app that allows the user to log and track different aspects of their wellbeing.
+The App generates meals that agree with the target diet of the user and it extracts a shopping list from them.
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+## Authors
+
+- [@YasminaMayeh](https://github.com/YasminaMayeh)
+- [@Claryyy](https://github.com/Claryyy)
+- [@Aminaxafzal](https://github.com/Aminaxafzal)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
