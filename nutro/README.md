@@ -13,6 +13,45 @@ The App generates meals that agree with the target diet of the user and it extra
 - [@Claryyy](https://github.com/Claryyy)
 - [@Aminaxafzal](https://github.com/Aminaxafzal)
 
+## Component tree
+
+The app is broken into manageable chunks with semantic names.
+The main ones are :
+
+- BackgroundLandingPage
+- Signup
+- Home
+
+If we drill down into the file structure, we can find the full list of the intended components.
+
+- BackgroundLandingPage
+- BackgroundSignup
+- BackgroundCompletedSignup
+- Button
+- ButtonSendShoppingList
+- ButtonSwap
+- CarouselMealType
+- CarouselWeekday
+- DietIcon
+- DropdownSignup
+- EnergyTracker
+- Home
+- InputSignup
+- LifestyleFact
+- MealCard
+- MealCardExpanded
+- MoodTracker
+- NavBar
+- OverallHealthTracker
+- PersonalisedName
+- ProfileImage
+- QuoteRandom
+- ShoppingList
+- ListItem
+- SleepTracker
+- WaterTracker
+- WellnessTacker
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
