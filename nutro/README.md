@@ -52,6 +52,12 @@ If we drill down into the file structure, we can find the full list of the inten
 - WaterTracker
 - WellnessTacker
 
+## Testing
+
+With React Testing Library, I tested the following
+
+- [BackgroundLandingPage renders correctly](https://github.com/SchoolOfCode/w15_collaborative-react-project-team-e-nutro/blob/muna-testing-and-documentation/nutro/src/components/background_landing-page/background_landing-page.test.js)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
