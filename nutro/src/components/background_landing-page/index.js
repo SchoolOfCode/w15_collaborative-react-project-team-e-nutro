@@ -11,7 +11,7 @@ import Button from "../button";
 
 function BackgroundLandingPage() {
   return (
-    <div className="body">
+    <div data-testid="landingpage-container" className="body">
       <div className="green-ellipse"></div>
       <div className="yellow-ellipse"></div>
       <div className="red-ellipse"></div>
